@@ -123,7 +123,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'polls',
-    'MyDjangoApp.authn',
+    #'authn',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -160,5 +160,5 @@ LOGGING = {
 #
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
-    'MyDjangoApp.authn.authn.CSpaceAuthN',
+    'authn.authn.CSpaceAuthN',
 )
